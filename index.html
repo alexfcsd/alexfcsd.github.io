@@ -56,9 +56,9 @@
 	</div>
 </div>
 
-
+<!--Слайды -->
 <div id="carousel" class="carousel slide">
-   <!-- Слайды -->
+    
    <div class="carousel-inner ">
     	<div class="item active">
      		<img src="img/first.jpg" alt="1 слайд">
@@ -97,30 +97,27 @@
    	</ol>   
 </div> 
 
-<div class="container">
-    <div class="row"> 
-        <br>
-        <h1>Alexandr_Nozdrin</h1>
-    </div>
-</div>
+<!--parallax -->
+<section  class="bg-1 text-center">
+    <p class="lead">Alexandr Nozdrin</p>
 
-<div class=" container">
-    <div class="row">
-        <div class="btn-group btn-group-lg">
-            <a href="http://new.vk.com/aghym1" target="_blank" class="btn btn-primary"><i class="fa fa-vk" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/alexandr.nozdrin.58" target="_blank" class="btn btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/fcsdalex" target="_blank" class="btn btn-primary"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/fcsdalex/" target="_blank" class="btn btn-primary"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            <a href="https://github.com/alexfcsd" target="_blank" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="skype:bomondltd?call" type="button" class="btn btn-primary" target="_blank"><i class="fa fa-skype" aria-hidden="true"></i></a>
+    <div class=" container">
+        <div class="row">
+            <div class="btn-group-vertical btn-group-lg">
+                <a href="http://new.vk.com/aghym1" target="_blank" class="btn btn-primary"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/alexandr.nozdrin.58" target="_blank" class="btn btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/fcsdalex" target="_blank" class="btn btn-primary"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/fcsdalex/" target="_blank" class="btn btn-primary"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://github.com/alexfcsd" target="_blank" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="skype:bomondltd?call" type="button" class="btn btn-primary" target="_blank"><i class="fa fa-skype" aria-hidden="true"></i></a>
+
+            </div>
+            <button type="button" class="btn btn-info btn btn-lg " data-toggle="modal" data-target="#modal-1">About me</button>
         </div>
+        <br>
     </div>
     <br>
-    <button type="button" class="btn btn-info btn btn-lg " data-toggle="modal" data-target="#modal-1">About me</button>
-    
-</div>
-    <br>
-
+</section>
 
 <div class="modal fade" id="modal-1">
     <div class="modal-dialog  modal-sm">
@@ -128,7 +125,7 @@
             <div class="modal-header">
                 <button class="close" type="button" data-dismiss="modal"><i class="fa fa-close"></i></button>
                 <br>
-                <h3 class="modal-title">Personal Data<h3>
+                <h3 class="modal-title" >Personal Data<h3>
             </div>
             <div class="modal-body">
                 <p>Name: <b id="anket">Alex</b></p>
@@ -142,18 +139,14 @@
                 <p>E-mail: <b id="anket">alexbestfor@gmail.com</b></p>
             </div>
             <div class="modal-footer">
-                <h6>«Two Steps Forward, No Step Back»</h6>
+                <blockquote>«Two Steps Forward, No Step Back»</blockquote>
                 <button class="btn-primary" type="button" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
 </div>
 
-<script>
-    jQuery(function(){
-        jQuery('[data-toggle="popover"]').popover();
-    });
-</script>
+
 
 </body>
 </html>
