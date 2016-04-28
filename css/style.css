@@ -7,6 +7,12 @@
 	text-align: center;
 }
 
+#size
+{
+	
+	overflow-y:auto;
+}
+
 h6{
 	text-align: left;
 }
@@ -15,7 +21,7 @@ img {
 	width: 100%;
 }
 
-p
+#pbig
 {
 	font-size: 250%;
 }
