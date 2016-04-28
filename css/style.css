@@ -1,0 +1,42 @@
+#anket{
+	font-size: 120%;
+	color:#27408B;
+}
+.modal-title  {
+	font-weight: bold;
+	text-align: center;
+}
+
+h6{
+	text-align: left;
+}
+
+
+
+#test
+{
+	draggable="true";
+}
+background: rgba(255,255,255,0);
+.moаialog{
+	padding: 5px;
+	background: url(img/1.png);
+}
+
+.
+
+.trа
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	height: 550px;
+	width: 400px;
+}
+
+.modl-header{
+	position: relative;
+	z-index: 100;
+	
+}
