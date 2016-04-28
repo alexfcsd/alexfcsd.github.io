@@ -14,7 +14,8 @@
 }
 #size
 {
-    background: url(C:/sneg/alexfcsd.github.io/img/rew.jpg) no-repeat center center fixed;
+    background-image: url(../img/rew.jpg);
+    background-repeat: no-repeat;	
     background-size:cover;
 }
 section {

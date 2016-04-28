@@ -63,15 +63,9 @@ $('.bg-2').parallax({
 
 
 
-
-$(document).ready(function () {
-    $(window).scroll(function () {
-        var s = $(document).scrollTop(),
-            d = $(document).height() - $(window).height();          
-        $("#progressbar").attr('max', d);
-        $("#progressbar").attr('value', s);
-     });
- });
+$('#size').css({'backgroundImage':'url(img/rew.jpg)',
+    'border':'1px solid red'
+    });
 
 
 	//jQuery('li').remove();z
