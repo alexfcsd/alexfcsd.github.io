@@ -2,7 +2,7 @@
 
 jQuery(document).ready ( function()
 {
-  		//jQuery('.draggable').draggable();
+  		jQuery('.draggable').draggable();
 });
 
 	//jQuery('li').remove();z

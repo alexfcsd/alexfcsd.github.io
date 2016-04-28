@@ -9,7 +9,7 @@
 
 #size
 {
-	
+	background-image: #gradient >.vertical(#4F364C,#FFFFFF);
 	overflow-y:auto;
 }
 
@@ -23,6 +23,7 @@ img {
 
 #pbig
 {
+	startcolor 
 	font-size: 250%;
 }
 h2
