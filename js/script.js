@@ -50,11 +50,29 @@ $('.bg-1,.bg-3').parallax({
 $('.bg-2').parallax({
 	speed :	0.25
 });
+
+
+
     
     jQuery(function(){
         jQuery('[data-toggle="popover"]').popover();
     });
 });
+
+
+
+
+
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        var s = $(document).scrollTop(),
+            d = $(document).height() - $(window).height();          
+        $("#progressbar").attr('max', d);
+        $("#progressbar").attr('value', s);
+     });
+ });
+
 
 	//jQuery('li').remove();z
 	//jQuery('body').append('<a href="http://new.vk.com/aghym1">Моя страница ВК</a>');

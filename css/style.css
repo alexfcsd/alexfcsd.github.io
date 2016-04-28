@@ -14,16 +14,7 @@
 }
 #size
 {
-	/*height: 2000px;
-	overflow-y:auto;
-	background-image: url(C:/sneg/alexfcsd.github.io/img/ph.jpg) ;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
     background: url(C:/sneg/alexfcsd.github.io/img/ph.jpg) no-repeat center center fixed;
-    /**/
     background-size:cover;
 }
 section {
@@ -32,10 +23,6 @@ section {
     padding-bottom:50px;
     overflow:auto;
     color:#fff;
-}
-
-.bg-1 {
-	
 }
 
 blockquote{
@@ -56,4 +43,3 @@ a
 {
 	color: #FFFAFA;
 }
-
