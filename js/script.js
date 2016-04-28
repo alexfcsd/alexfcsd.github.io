@@ -63,10 +63,6 @@ $('.bg-2').parallax({
 
 
 
-$('#size').css({'backgroundImage':'url(img/rew.jpg)',
-    'border':'1px solid red'
-    });
-
 
 	//jQuery('li').remove();z
 	//jQuery('body').append('<a href="http://new.vk.com/aghym1">Моя страница ВК</a>');

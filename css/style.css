@@ -15,8 +15,10 @@
 #size
 {
     background-image: url(../img/rew.jpg);
-    background-repeat: no-repeat;	
+    background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
 }
 section {
     height:100%;
