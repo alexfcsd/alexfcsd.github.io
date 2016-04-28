@@ -11,32 +11,20 @@ h6{
 	text-align: left;
 }
 
+img {
+	width: 100%;
+}
 
-
-#test
+p
 {
-	draggable="true";
+	font-size: 250%;
 }
-background: rgba(255,255,255,0);
-.moаialog{
-	padding: 5px;
-	background: url(img/1.png);
-}
-
-.
-
-.trа
+h2
 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: 90;
-	height: 550px;
-	width: 400px;
+	font-size: 300%;
 }
 
-.modl-header{
-	position: relative;
-	z-index: 100;
-	
+a
+{
+	color: #FFFAFA;
 }
