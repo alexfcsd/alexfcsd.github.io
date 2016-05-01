@@ -10,10 +10,6 @@ jQuery(document).ready( function()
 
 	
 
-    $(".modal").on("show.bs.modal", function(){
-    var $bodyWidth = $("body").width();
-    $("body").css({'overflow-y': "hidden"}).css({'padding-right': ($("body").width()-$bodyWidth)});
-});
 
   		
     
