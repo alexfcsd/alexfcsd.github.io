@@ -14,12 +14,18 @@
 }
 #size
 {
-    background-image: url(../img/rew.jpg);
+    background-image: url(../img/ph.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment:fixed;
 }
+
+.btn-lg{
+	height: 85px;
+	width: 160px;
+}
+
 section {
     height:100%;
     padding-top:50px;
@@ -27,7 +33,9 @@ section {
     overflow:auto;
     color:#fff;
 }
-
+.empty{
+	height: 300px;
+}
 blockquote{
 	font-size: 85%;	
 	text-align: left;
@@ -39,10 +47,37 @@ img {
 
 
 .lead{
-	font-size: 800%;
+	font-size: 550%;
+}
+
+.dropdown-menu
+{
+ min-width: 132px;
 }
 
 a
 {
 	color: #FFFAFA;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #FFFAFA;
+}
+
+a:active
+{
+	color: #FFFAFA;
+}
+
+a:hover
+{
+	color: #FFFAFA;
+	text-decoration: none;
+}
+
+
+.linked
+{
+	font-size: 18pt	;		
 }
