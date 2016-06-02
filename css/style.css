@@ -17,12 +17,11 @@
 
 #size
 {
-	background-color: #F5F5DC;
-	/*background-image: url(../img/ph.jpg);
+	background-image: url(../img/ph.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-    background-attachment:fixed;*/
+    background-attachment:fixed;
 }
 
 .btn-lg{
