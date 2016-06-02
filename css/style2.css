@@ -14,6 +14,11 @@
 }
 
 
+.text
+{
+	font-size: 120%;
+
+}
 
 #size
 {
@@ -82,15 +87,6 @@ img {
 	color: #5F9EA0;
 }
 
-a
-{
-	color: #FFFAFA;
-	text-decoration: none;
-}
-a:visited
-{
-	color: #FFFAFA;
-}
 .data
 {
 	width: 85%;

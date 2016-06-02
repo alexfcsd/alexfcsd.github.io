@@ -1,37 +1,70 @@
 
 
-jQuery(document).ready( function()
+jQuery(document).ready( function($)
 {
- 
-    jQuery(".dropdown-toggle").hover(
-    	function(){jQuery(".fa-pencil").addClass('fa-spin')},
-    	function (){jQuery(".fa-pencil").removeClass('fa-spin')}
-    	);
 
+    var LIGHTING = 1, NOISE = 2, MICROCLIMATE = 3;
+
+ 
+    $(".dropdown-toggle").hover(
+    	function(){ $(".fa-pencil").addClass('fa-spin'); },
+    	function(){ $(".fa-pencil").removeClass('fa-spin'); }
+    );
     
-    jQuery(function(){
-        jQuery('[data-toggle="popover"]').popover();
+    // $('[data-toggle="popover"]').popover();
+    
+
+    function nameFunct() 
+    { 
+        var singleValues = $("#param").val(); 
+        switch(singleValues) 
+        { 
+            case ("1"):
+                $('#first').slideDown(400); 
+                $('#second').slideUp(400);
+                $('#third').slideUp(400);  
+                break; 
+            case ("2"): 
+                $('#first').slideUp(400);
+                $('#second').slideDown(400); 
+                $('#third').slideUp(400); 
+                break; 
+            case ("3"): 
+                $('#first').slideUp(400);
+                $('#second').slideUp(400); 
+                $('#third').slideDown(400); 
+                break; 
+            case ("0"): 
+                $('#first').slideUp(400);
+                $('#second').slideUp(400); 
+                $('#third').slideUp(400); 
+                break; 
+        } 
+    } 
+    $("select").change(nameFunct); 
+    nameFunct();
+
+
+    $('#param').change(function() {
+        var selectedValue = $(this).val();
+        $.post('preferences.php', {'value': selectedValue})
+            .done(function(data) { console.log("Success") })
+            .fail(function() { console.log("failure") });
     });
 
-
-    
 });
 
 
-
-
-
-
-	//jQuery('li').remove();z
-	//jQuery('body').append('<a href="http://new.vk.com/aghym1">Моя страница ВК</a>');
+	//$('li').remove();z
+	//$('body').append('<a href="http://new.vk.com/aghym1">Моя страница ВК</a>');
 	
-	//jQuery('h3').remove();
+	//$('h3').remove();
 	
 	//var div_clon;
 	
-	//div_clon=jQuery('.part1').clone();
+	//div_clon=$('.part1').clone();
 	
-	//jQuery('body').append(div_clon);
-		
-		
+	//$('body').append(div_clon);
+
+
 		
