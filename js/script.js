@@ -11,7 +11,6 @@ jQuery(document).ready( function($)
     	function(){ $(".fa-pencil").removeClass('fa-spin'); }
     );
     
-    // $('[data-toggle="popover"]').popover();
     
 
     function nameFunct() 
@@ -51,7 +50,8 @@ jQuery(document).ready( function($)
             .done(function(data) { console.log("Success") })
             .fail(function() { console.log("failure") });
     });
-
+// $('[data-toggle="popover"]').popover();
+    
 });
 
 
